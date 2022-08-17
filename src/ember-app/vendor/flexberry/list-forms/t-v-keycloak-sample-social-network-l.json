@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "t-v-keycloak-sample-social-network-e",
+  "editForm": "t-v-keycloak-sample-social-network-e",
+  "external": false,
+  "caption": "Social network",
+  "name": "TVKeycloakSampleSocialNetworkL",
+  "className": "SocialNetworkL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "t-v-keycloak-sample-social-network",
+      "modelProjection": "SocialNetworkL"
+    }
+  ]
+}

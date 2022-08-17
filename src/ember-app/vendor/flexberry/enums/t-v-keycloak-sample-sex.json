@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "TV.KeycloakSample",
+  "className": "Sex",
+  "enumObjects": {
+    "Male": "",
+    "Female": "",
+    "Unknown": ""
+  }
+}

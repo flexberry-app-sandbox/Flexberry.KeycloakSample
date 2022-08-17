@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Social network",
+  "name": "TVKeycloakSampleSocialNetworkE",
+  "className": "SocialNetworkE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "t-v-keycloak-sample-social-network",
+      "modelProjection": "SocialNetworkE"
+    }
+  ]
+}

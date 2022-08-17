@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "t-v-keycloak-sample-person-meta-data-e",
+  "editForm": "t-v-keycloak-sample-person-meta-data-e",
+  "external": false,
+  "caption": "Person meta data",
+  "name": "TVKeycloakSamplePersonMetaDataL",
+  "className": "PersonMetaDataL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "t-v-keycloak-sample-person-meta-data",
+      "modelProjection": "PersonMetaDataL"
+    }
+  ]
+}
