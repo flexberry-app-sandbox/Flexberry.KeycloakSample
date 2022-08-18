@@ -121,8 +121,31 @@ export default Controller.extend({
     @type AppStateService
   */
   appState: service(),
+  /**
+    Service for user authorization session.
+
+    @property keycloakSession
+    @type KeycloakSessionService
+  */
+    keycloakSession: service(),
+
+    /**
+      User name from session data.
+   */
+    userName: computed('keycloakSession.tokenParsed.preferred_username', function() {
+      return this.keycloakSession.tokenParsed.preferred_username;
+    }),
 
   actions: {
+  /**
+    Performs user logout.
+
+    @method actions.logout
+  */
+    logout()
+    {
+        this.keycloakSession.logout();
+    },
     /**
       Call `updateWidthTrigger` for `objectlistviewEventsService`.
 
